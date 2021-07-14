@@ -84,7 +84,7 @@
         <ActivityAction>
           <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="505,865" sap2010:WorkflowViewState.IdRef="TryCatch_1">
             <TryCatch.Try>
-              <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" BrowserType="IE" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="467,638" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Private="True" UiBrowser="[browser]" Url="[in_SourceURL]">
+              <ui:OpenBrowser CommunicationMethod="{x:Null}" NewSession="{x:Null}" BrowserType="IE" DisplayName="Open Browser" Hidden="True" sap:VirtualizedContainerService.HintSize="467,638" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Private="True" UiBrowser="[browser]" Url="[in_SourceURL]">
                 <ui:OpenBrowser.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
