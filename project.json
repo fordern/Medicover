@@ -1,5 +1,5 @@
 {
-  "name": "MedicoverTask",
+  "name": "UnicornNameGenerator",
   "description": "Recruitment task for Medicover.",
   "main": "Main.xaml",
   "dependencies": {
